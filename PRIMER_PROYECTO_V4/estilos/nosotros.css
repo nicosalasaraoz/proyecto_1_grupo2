@@ -41,4 +41,14 @@ footer {
 .hover-links a:hover {
     color: white !important;
 }
+.avatar {
+    
+    height: 100px;
+    width: 100px;
+    
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
 /* fin footer */
