@@ -3,6 +3,24 @@ body {
     background-color: rgb(8, 8, 8) !important;
 }
 
+/* Inicio de modificar modal suscripción*/
+.modificar-modal{
+    background-color: rgba(8, 8, 8, 0.904) !important;
+}
+.modificar-modal input {
+    background-color: rgba(8, 8, 8, 0.904) !important;
+    color: rgb(194, 190, 190) !important;
+}
+
+.modificar-modal>.modal-body button, .modificar-modal>.modal-footer button {
+    border: 3px solid black;
+    color: black;
+    background-color: #DEB522;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 900 !important;
+}
+/* Fin de modificar modal suscripción*/
+
 /* Inicio de la modificacion del fondo y tamaño de main */
 main {
     background-image: url(https://static.vecteezy.com/system/resources/previews/001/254/680/non_2x/cinema-background-concept-vector.jpg);
