@@ -326,7 +326,7 @@ footer {
 }
 @media only screen and (max-width: 265px) {
     main {
-        padding-top: 36% !important;
+        padding-top: 15% !important;
     }
 }
 
@@ -375,6 +375,27 @@ footer {
 @media only screen and (max-width: 392px) {
     .actor img {
         max-height: 70.39px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .actor img {
+        max-height: 70.39px;
+    }
+}
+
+@media only screen and (max-width: 230px) {
+    .actor img {
+        max-height: 70.39px;
+        min-width: 50px;
+    }
+}
+@media only screen and (max-width: 250px) {
+    .img-none img {
+        display: none;
+    }
+    .puntuaciones-none {
+        width: 100% !important;
     }
 }
 /* Fin de las media queries para ajustar el contenido de la pagina en función del tamaño del dispositivo */
