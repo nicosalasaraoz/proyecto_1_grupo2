@@ -5,6 +5,24 @@ main {
     width: 100% !important;
 }
 
+/* Inicio de modificar modal suscripción*/
+.modificar-modal{
+    background-color: rgba(8, 8, 8, 0.904) !important;
+}
+.modificar-modal input {
+    background-color: rgba(8, 8, 8, 0.904) !important;
+    color: rgb(194, 190, 190) !important;
+}
+
+.modificar-modal>.modal-body button, .modificar-modal>.modal-footer button {
+    border: 3px solid black;
+    color: black;
+    background-color: #DEB522;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 900 !important;
+}
+/* Fin de modificar modal suscripción*/
+
 /* Inicio del editar tipo de letra y color de fondo del navbar */
 #navbar-color {
     font-family: 'IBM Plex Sans', sans-serif;
