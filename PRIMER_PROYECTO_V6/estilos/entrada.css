@@ -372,4 +372,10 @@ footer {
         padding-top: 4% !important;
     }
 }
+
+@media only screen and (max-width: 392px) {
+    .actor img {
+        max-height: 70.39px;
+    }
+}
 /* Fin de las media queries para ajustar el contenido de la pagina en función del tamaño del dispositivo */
