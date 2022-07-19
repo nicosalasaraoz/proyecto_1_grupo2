@@ -10,6 +10,20 @@ body{
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: rgb(8, 8, 8) !important;
 }
+.boton-hamburguesa {
+    background-color: black !important;
+    border: 3px solid rgb(53, 53, 53) !important
+}
+.boton-hamburguesa i {
+    color: #DEB522 !important;
+}
+.boton-hamburguesa:hover {
+    background-color: rgb(3, 3, 3) !important;
+    border: 3px solid rgb(80, 80, 80) !important
+}
+.boton-hamburguesa i:hover {
+    color: #ffc800 !important;
+}
 
 #pochocleros {
     border: 3px solid black;
