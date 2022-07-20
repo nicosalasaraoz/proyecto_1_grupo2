@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: black !important;
     background-image: url(http://2.bp.blogspot.com/-QPOBifpgmTk/VBw4v3eFV1I/AAAAAAAAI3Y/vUvDAvbYZ_0/s1600/matrix%2Bye%C5%9Fil%2Byaz%C4%B1lar.gif);
     background-position: center;
     background-repeat: repeat;
@@ -58,6 +58,30 @@ body{
 .boton-hamburguesa i:hover {
     color: #ffc800 !important;
 }
+
+.div-principal {
+    background-color: rgba(0, 0, 0, 0.801);
+    width: 80% !important;
+}
+
+.div-principal>.row {
+    min-height: 50vh !important;
+}
+.div-principal h1 {
+    font-size: 750%;
+}
+.div-principal h2 {
+    font-size: 200%;
+}
+@media only screen and (max-width: 420px) {
+    .div-principal h1 {
+        font-size: 550%;
+    }
+    .div-principal h2 {
+        font-size: 100%;
+    }
+}
+
 
 #pochocleros {
     border: 3px solid black;
@@ -126,13 +150,21 @@ nav {
 @media only screen and (min-width: 1400px) {
     main img {
         padding-top: 6%;
-        height: 700px;
+        height: 700px !important;
     }
 }
 @media only screen and (max-width: 1399px) {
     main img {
         padding-top: 3%;
+        height: 700px;
+        width: 1400px !important;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    main img {
+        padding-top: 8%;
         /* height: 700px; */
+        /* width: 100% !important; */
     }
 }
 
