@@ -1,3 +1,4 @@
+/* Agregar imagen de fondo al body */
 body{
     background-color: black !important;
     background-image: url(http://2.bp.blogspot.com/-QPOBifpgmTk/VBw4v3eFV1I/AAAAAAAAI3Y/vUvDAvbYZ_0/s1600/matrix%2Bye%C5%9Fil%2Byaz%C4%B1lar.gif);
@@ -40,6 +41,7 @@ body{
 }
 /* Fin del editar boton "SUSCRIPCIÓN" */
 
+/* Inicio de editar contenido en navbar */
 #navbar-color {
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: rgb(8, 8, 8) !important;
@@ -58,7 +60,9 @@ body{
 .boton-hamburguesa i:hover {
     color: #ffc800 !important;
 }
+/* Fin de editar contenido en navbar */
 
+/* Inicio del ditar div principal y centrado del mismo */
 .div-principal {
     background-color: rgba(0, 0, 0, 0.801);
     width: 80% !important;
@@ -73,7 +77,9 @@ body{
 .div-principal h2 {
     font-size: 200%;
 }
+/* Fin del ditar div principal y centrado del mismo */
 
+/* Inicio del editar boton "POCHOCLEROS" */
 #pochocleros {
     border: 3px solid black;
     color: black;
@@ -90,11 +96,8 @@ body{
         display: none;
     }
 }
+/* Fin del editar boton "POCHOCLEROS" */
 
-#imagen{
-    justify-content: center;
-    align-items: center;
-}
 /* inicio footer */
 footer {
     font-family: 'IBM Plex Sans', sans-serif;
@@ -122,9 +125,6 @@ footer {
     color: white !important;
 }
 /* fin footer */
-nav {
-   color : white;
-  }
 
 /* Inicio de las medias queries que ajustan la imagen de error a los dispositivos */
 @media only screen and (max-width: 420px) {

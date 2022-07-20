@@ -1,3 +1,4 @@
+/* Agregar imgagen de fonod a main */
 main {
     background-image: url(https://static.vecteezy.com/system/resources/previews/001/254/680/non_2x/cinema-background-concept-vector.jpg);
     background-position: center;
@@ -43,6 +44,7 @@ main {
 }
 /* Fin del editar boton "SUSCRIPCIÓN" */
 
+/* Inicio de editar contenido en navbar */
 #navbar-color {
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: black !important;
@@ -61,7 +63,9 @@ main {
 .boton-hamburguesa i:hover {
     color: #ffc800 !important;
 }
+/* Fin de editar contenido en navbar */
 
+/* Inicio de editar boton "POCHOCLEROS" */
 #pochocleros {
     border: 3px solid black;
     color: black;
@@ -78,21 +82,19 @@ main {
         display: none;
     }
 }
+/* Fin de editar boton "POCHOCLEROS" */
 
 .contenedor-principal {
     background-color: rgba(0, 0, 0, 0.808);
 }
 
+/* Inicio de editar modales de integrantes */
 .modal-imagen {
     background-color: rgba(41, 41, 41, 0.432) !important;
 }
 
 .boton-modal:hover {
     background-color:#DEB522 !important;
-}
-
-#reseñas>div>input, #reseñas>div>textarea {
-    background-color: rgba(255, 255, 255, 0.233);
 }
 
 .foto-modal {
@@ -102,6 +104,12 @@ main {
 .boton-modal {
     background-color: rgb(156, 156, 156) !important;
 }
+/* Fin de editar modales de integrantes */
+
+#reseñas>div>input, #reseñas>div>textarea {
+    background-color: rgba(255, 255, 255, 0.233);
+}
+
 .boton-modal>button {
     height: 70%;
     width: 80%;

@@ -1,3 +1,4 @@
+/* Agregar imagen de fondo a body */
 body {
     background-image:linear-gradient(rgba(0, 0, 0, 0.685),rgb(0, 0, 0)),url(https://r4.wallpaperflare.com/wallpaper/22/762/507/film-movie-filmmaker-movie-director-wallpaper-7980187d710a0dbbd6e768ef7001360d.jpg);
     width: 100%;
@@ -7,14 +8,17 @@ body {
     background-repeat: no-repeat; 
 }
 
+/* Cambiar tipo de letra solo en main */
 main {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Agregar border izquierdo a los sub-titulos */
 .sub-titulo {
     border-left: 7px #DEB522 solid;
 }
 
+/* Inicio del editar boton "POCHOCLEROS" */
 #pochocleros {
     border: 3px solid black;
     color: black;
@@ -31,12 +35,11 @@ main {
         display: none;
     }
 }
+/* Fin del editar boton "POCHOCLEROS" */
 
+/* Hcaer circular el boton de integrantes */
 .boton-integrante {
     border-radius: 50% !important;
-}
-.integrante {
-    /* width: 27% !important; */
 }
 
 /* Inicio de modificar modal suscripción*/
