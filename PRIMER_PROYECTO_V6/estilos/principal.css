@@ -2,6 +2,15 @@ body {
     background-color: black !important;
 }
 
+.btn-ver-mas {
+    background-color: rgba(8, 8, 8) !important;
+    border-radius: 0% !important;
+}
+.btn-ver-mas:hover {
+    background-color: black !important;
+    color: #DEB522 !important;
+}
+
 /* Inicio de modificar modal suscripción*/
 .modificar-modal{
     background-color: rgba(8, 8, 8, 0.904) !important;

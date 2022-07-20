@@ -73,15 +73,6 @@ body{
 .div-principal h2 {
     font-size: 200%;
 }
-@media only screen and (max-width: 420px) {
-    .div-principal h1 {
-        font-size: 550%;
-    }
-    .div-principal h2 {
-        font-size: 100%;
-    }
-}
-
 
 #pochocleros {
     border: 3px solid black;
@@ -136,36 +127,103 @@ nav {
   }
 
 /* Inicio de las medias queries que ajustan la imagen de error a los dispositivos */
-@media only screen and (min-width: 1600px) {
-    main img {
-        padding-top: 6%;
+@media only screen and (max-width: 420px) {
+    .div-principal h1 {
+        font-size: 550%;
+    }
+    .div-principal h2 {
+        font-size: 100%;
     }
 }
-@media only screen and (min-width: 1500px) {
-    main img {
-        padding-top: 6%;
-        height: 700px;
+@media only screen and (min-width: 1000px) {
+    main {
+        padding-top: 4% !important;
     }
 }
-@media only screen and (min-width: 1400px) {
-    main img {
-        padding-top: 6%;
-        height: 700px !important;
+@media only screen and (max-width: 999px) {
+    main {
+        padding-top: 4.6% !important;
     }
 }
-@media only screen and (max-width: 1399px) {
-    main img {
-        padding-top: 3%;
-        height: 700px;
-        width: 1400px !important;
+@media only screen and (min-width: 840px) {
+    main {
+        padding-top: 5%;
     }
 }
-@media only screen and (max-width: 1200px) {
-    main img {
-        padding-top: 8%;
-        /* height: 700px; */
-        /* width: 100% !important; */
+@media only screen and (min-width: 768px) {
+    main {
+        padding-bottom: 6%;
     }
 }
+@media only screen and (max-width: 767px) {
+    main {
+        padding-bottom: 6% !important;
+    }
+}
+@media only screen and (min-width: 650px) {
+    main {
+        padding-top: 1%;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .div-principal h1 {
+        font-size: 500%;
+    }
+    .div-principal h2 {
+        font-size: 130%;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .div-principal h1 {
+        font-size: 450%;
+    }
+    .div-principal h2 {
+        font-size: 100%;
+    }
+}
+@media only screen and (max-width: 310px) {
+    .div-principal h1 {
+        font-size: 390%;
+    }
+    .div-principal h2 {
+        font-size: 100%;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .div-principal h1 {
+        font-size: 330%;
+    }
+    .div-principal h2 {
+        font-size: 100%;
+    }
+}
+@media only screen and (max-width: 235px) {
+    .div-principal h1 {
+        font-size: 280%;
+    }
+    .div-principal h2 {
+        font-size: 100%;
+    }
+}
+@media only screen and (min-height: 1400px) {
 
+    @media only screen and (max-width: 1200px) {
+        main {
+            padding-top: 2px !important;
+            padding-bottom: 2px !important;
+        }
+    }
+
+    @media only screen and (max-width: 1000px) {
+        main {
+            padding-top: 15% !important;
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        footer {
+            margin: 0px !important;
+        }
+    }
+
+}
 /* Fin de las medias queries que ajustan la imagen de error a los dispositivos */
