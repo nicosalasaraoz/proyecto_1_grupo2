@@ -54,32 +54,35 @@
             </li>
           </ul>
           <div>
-            <button type="button" class="btn" id="suscripcion-boton" data-bs-toggle="modal" data-bs-target="#suscripcion">
+            <button type="button" class="btn" id="suscripcion-boton" data-bs-toggle="modal"
+              data-bs-target="#suscripcion">
               Suscripción <i class="fa-regular fa-bell"></i>
             </button>
           </div>
         </div>
     </nav>
+
     <div class="modal" id="suscripcion" tabindex="-1">
       <div class="modal-dialog">
         <div class="modal-content modificar-modal">
           <div class="modal-header">
-            <h5 class="modal-title text-center"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+            <h5 class="modal-title text-center text-light"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
                 height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
                 <path
                   d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
-              </svg> Suscribite</h5>
+              </svg> Suscríbite</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             <form>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nombre y Apellido</label>
-                <input type="text" class="form-control" id="text">
+                <input type="name" class="form-control" id="text" required placeholder="Robert De Niro">
               </div>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required
+                  placeholder="nombre@email.com">
                 <div id="emailHelp" class="form-text">
                   Nunca compartiremos tu correo electrónico con nadie más.</div>
               </div>
@@ -87,15 +90,16 @@
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Recibir Notificaciones</label>
               </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="sumbit" class="btn btn-dark">Enviar</button>
+              </div>
             </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            <button type="button" class="btn btn-dark">Enviar</button>
           </div>
         </div>
       </div>
     </div>
+
   </header>
   <!-- fin NavBar -->
   <!-- Pagina acerca de nosotros -->
@@ -107,16 +111,18 @@
       <article class="row px-2 py-2">
         <aside class="col-12 col-lg-6 mb-3">
           <h2 class="sub-titulo">¿QUIÉNES SOMOS?</h2>
-          <p class="m-0" id="info-nosotros">Somos un grupo, que en común, nos apasiona ver series, películas y programar. Debido
+          <p class="m-0" id="info-nosotros">Somos un grupo, que en común, nos apasiona ver series, películas y
+            programar. Debido
             a esto nace "Pochocleros".
           </p>
           <h2 class="sub-titulo mt-5">SOBRE NUESTRA PAGINA</h2>
           <p class="m-0" id="info-nosotros">Pochocleros es un blog para todos los amantes del cine y las series.
-          Desde Pochocleros se cubre toda la actualidad informativa relativa al lanzamiento de estrenos, mediante trailers, noticias, etc. 
-          Los usuarios de la página podrán reseñar series o películas, armar debates con otros usuarios,
-          puntuarlas, entre otras cosas. Además, buscamos recomendar lo mejor para
-          el disfrute de lo audiovisual, ya sea en una sala de cine, en el salón de casa o en
-          cualquier lugar donde llegue un streaming.
+            Desde Pochocleros se cubre toda la actualidad informativa relativa al lanzamiento de estrenos, mediante
+            trailers, noticias, etc.
+            Los usuarios de la página podrán reseñar series o películas, armar debates con otros usuarios,
+            puntuarlas, entre otras cosas. Además, buscamos recomendar lo mejor para
+            el disfrute de lo audiovisual, ya sea en una sala de cine, en el salón de casa o en
+            cualquier lugar donde llegue un streaming.
           </p>
         </aside>
         <aside class="col-12 col-lg-6">
@@ -128,7 +134,8 @@
               <div class="col-12 col-sm-6 col-md-4 integrante">
                 <div class="container-fluid m-0 p-0">
                   <!-- Button trigger modal -->
-                  <button type="button" class="btn boton-integrante p-0 d-flex w-100" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                  <button type="button" class="btn boton-integrante p-0 d-flex w-100" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop1">
                     <img class="w-100 rounded-circle" src="/img/enzo.jpeg" alt="">
                   </button>
 
@@ -143,10 +150,18 @@
                         </div>
                         <div class="modal-body">
                           <ul>
-                            <li><p>EDAD : 27 años</p></li>
-                            <li><p>Gustos: Pasion por las ciencias y la tecnologia</p></li>
-                            <li><p>ESTUDIOS: LICENCIATURA EN CS BIOLOGICAS- PROGRAMACION FULL STACK(ROLLINGCODE/</p></li>
-                            <li><p>Trabajo: Asesor Telefonico</p></li>
+                            <li>
+                              <p>EDAD : 27 años</p>
+                            </li>
+                            <li>
+                              <p>Gustos: Pasion por las ciencias y la tecnologia</p>
+                            </li>
+                            <li>
+                              <p>ESTUDIOS: LICENCIATURA EN CS BIOLOGICAS- PROGRAMACION FULL STACK(ROLLINGCODE/</p>
+                            </li>
+                            <li>
+                              <p>Trabajo: Asesor Telefonico</p>
+                            </li>
                           </ul>
                         </div>
                         <div class="modal-footer">
@@ -165,7 +180,8 @@
               <div class="col-12 col-sm-6 col-md-4 integrante">
                 <div class="container-fluid m-0 p-0">
                   <!-- Button trigger modal -->
-                  <button type="button" class="btn boton-integrante p-0 d-flex w-100" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                  <button type="button" class="btn boton-integrante p-0 d-flex w-100" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop2">
                     <img class="w-100 rounded-circle" src="img/jonas.jpeg" alt="">
                   </button>
 
@@ -180,9 +196,15 @@
                         </div>
                         <div class="modal-body">
                           <ul>
-                            <li><p>EDAD: 22 años</p></li>
-                            <li><p>GUSTOS: Leer, jugar videojuegos, pasión por las matematicas y la programación.</p></li>
-                            <li><p>ESTUDIO: Ingenieria en Sistemas - Desarrollador Full Stack en Rolling Code.</p></li>
+                            <li>
+                              <p>EDAD: 22 años</p>
+                            </li>
+                            <li>
+                              <p>GUSTOS: Leer, jugar videojuegos, pasión por las matematicas y la programación.</p>
+                            </li>
+                            <li>
+                              <p>ESTUDIO: Ingenieria en Sistemas - Desarrollador Full Stack en Rolling Code.</p>
+                            </li>
                           </ul>
                         </div>
                         <div class="modal-footer">
@@ -201,7 +223,8 @@
               <div class="col-12 col-sm-6 col-md-4 integrante">
                 <div class="container-fluid m-0 p-0">
                   <!-- Button trigger modal -->
-                  <button type="button" class="btn boton-integrante p-0 d-flex w-100" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                  <button type="button" class="btn boton-integrante p-0 d-flex w-100" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop3">
                     <img class="w-100 rounded-circle" src="/img/Foto_Valentina.jpg" alt="">
                   </button>
 
@@ -216,9 +239,15 @@
                         </div>
                         <div class="modal-body">
                           <ul>
-                            <li><p>EDAD: 21 años </p></li>
-                            <li><p>GUSTOS: Danza, música y tecnología. Amante de la naturaleza y de los animales.</p></li>
-                            <li><p>ESTUDIO: Profesorado en Física/ Desarrollador Full Stack Rolling Code.</p></li>
+                            <li>
+                              <p>EDAD: 21 años </p>
+                            </li>
+                            <li>
+                              <p>GUSTOS: Danza, música y tecnología. Amante de la naturaleza y de los animales.</p>
+                            </li>
+                            <li>
+                              <p>ESTUDIO: Profesorado en Física/ Desarrollador Full Stack Rolling Code.</p>
+                            </li>
                           </ul>
                         </div>
                         <div class="modal-footer">
@@ -237,7 +266,8 @@
               <div class="col-12 col-sm-6 col-md-4 integrante">
                 <div class="container-fluid m-0 p-0">
                   <!-- Button trigger modal -->
-                  <button type="button" class="btn boton-integrante p-0 d-flex w-100" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+                  <button type="button" class="btn boton-integrante p-0 d-flex w-100" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop4">
                     <img class="w-100 rounded-circle" src="/img/nico.jpeg" alt="">
                   </button>
 
@@ -252,9 +282,16 @@
                         </div>
                         <div class="modal-body">
                           <ul>
-                            <li><p>EDAD: 37 años</p></li>
-                            <li><p>GUSTOS: La naturaleza, andar en bici, los negocios y la programacion.</p></li>
-                            <li><p>ESTUDIO/TRABAJO: Contador Publico Nacional, Data Scientist en Acamica, Trabajo para el Estado.</p></li>
+                            <li>
+                              <p>EDAD: 37 años</p>
+                            </li>
+                            <li>
+                              <p>GUSTOS: La naturaleza, andar en bici, los negocios y la programacion.</p>
+                            </li>
+                            <li>
+                              <p>ESTUDIO/TRABAJO: Contador Publico Nacional, Data Scientist en Acamica, Trabajo para el
+                                Estado.</p>
+                            </li>
                           </ul>
                         </div>
                         <div class="modal-footer">
@@ -273,7 +310,8 @@
               <div class="col-12 col-sm-6 col-md-4 integrante">
                 <div class="container-fluid m-0 p-0">
                   <!-- Button trigger modal -->
-                  <button type="button" class="btn boton-integrante p-0 d-flex w-100" data-bs-toggle="modal" data-bs-target="#staticBackdrop5">
+                  <button type="button" class="btn boton-integrante p-0 d-flex w-100" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop5">
                     <img class="w-100 rounded-circle" src="/img/berna.jpeg" alt="">
                   </button>
 
@@ -288,9 +326,16 @@
                         </div>
                         <div class="modal-body">
                           <ul>
-                            <li><p>EDAD:32 años</p></li>
-                            <li><p>GUSTOS: Aficionada de la lectura, el cine y las actividades al aire libre.</p></li>
-                            <li><p>ESTUDIO: Estudiante de Licenciatura en Biotecnologia, Profesorado en quimica y Desarrolo web</p></li>
+                            <li>
+                              <p>EDAD:32 años</p>
+                            </li>
+                            <li>
+                              <p>GUSTOS: Aficionada de la lectura, el cine y las actividades al aire libre.</p>
+                            </li>
+                            <li>
+                              <p>ESTUDIO: Estudiante de Licenciatura en Biotecnologia, Profesorado en quimica y
+                                Desarrolo web</p>
+                            </li>
                           </ul>
                         </div>
                         <div class="modal-footer">
@@ -311,7 +356,7 @@
       </article>
     </section>
   </main>
-  
+
   <!-- Footer -->
   <footer class="mt-auto">
     <div class="row m-0 p-0 pt-4 text-white w-100 hover-links">
